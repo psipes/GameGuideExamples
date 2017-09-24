@@ -1,0 +1,1125 @@
+ ___________________________________________________________________________
+|  _______________________________________________________________________  |
+| |                                                                       | |
+| |           ______                        _         _                   | |
+| |          |  ____|                      | \       / |                  | |
+| |          | |___  _______   ______      |  \     /  | __  __           | |
+| |          |  ___||  ___  | |  __  \     |   \   /   | \ \/ /           | |
+| |          | |    | /   \ | | |  |_|     | |\ \ / /| |  \  /            | |
+| |          | |    | \___/ | | |          | | \ v / | |  | |             | |
+| |          |_|    |_______| |_|          |_|  \_/  |_|  |_|             | |
+| |  ________                                             _               | |
+| | |  ____  \                                           | |              | |
+| | | |    | |  _____   ______   ______     _  ______  __| |__   _____    | |
+| | | |____| | |___  | |  __  \ /  __  \   | |/ ___  ||__   __| |  ___|   | |
+| | |  ______/ ____| | | |  |_|/  |__|  \  |   /   | |   | |    | |       | |
+| | | |       |  __  | | |     | _______|  |  /    | |   | |    | |_____  | |
+| | | |       | |__| | | |     \ \_______  | |     | |   | |    |_____  | | |
+| | |_|       | _____| |_|      \________| |_|     |_|   |_|          | | | |
+| |                                                                   | | | |
+| |___________________________________________________________________| | | |
+|_______________________________________________________________________| |_|
+|||||||||||||||||||||||||||A Puzzle Adventure Game|||||||||||||||||||||||||||                   
+
+
+
+I.	Notes
+II.	Background
+III.	Controls and UI Key
+IV.	Walkthrough
+   a.	Campsite
+   b.	Starting Temple
+   c.	Jaguar Temple
+   d.	Rabbit Temple
+   e.	Boss Battle and Aftermath
+   f.	Endings Guide
+V.	Cheat Codes
+VI.	Credits
+
+
+========================================================
+========================================================
+==========================NOTES=========================
+========================================================
+========================================================
+
+For My Parents was created as part of a single semester capstone course that 
+brought together students finishing Associates of Applied Science degrees in 
+Game Programming, Game Production, and 3D Art and Animation. We were lucky to 
+have a pretty balanced group with a wide variety of talents consisting of 
+three Production students and four each of Artists and Programmers. 
+
+We had a faculty that was fully invested on letting us do our own thing…even 
+when our own thing was to fail miserably, misstep and scrap large portions. 
+Perhaps that’s what makes the end result so much more satisfying as a 
+student. It was ours. All the choices—good and bad—were ours.  Sure, some 
+were influenced (positively and negatively) by faculty that saw us panicking, 
+but in the end, it’s something every student on the team is willing to own up 
+to.
+
+We couldn’t have done it without our faculty mentors who were there at 2 am 
+when we had an insane question. And of equal importance, we couldn’t have 
+done it without our testers. While we tested in-house, every week we opened 
+up our room for free play to any person on campus (or the internet) willing 
+to play and give us feedback.  The results were many times disastrous and at 
+best laughable. But it made for a better game that grew so much from “a girl 
+afraid of the dark” to what it is now.?
+
+
+
+========================================================
+========================================================
+=======================BACKGROUND=======================
+========================================================
+========================================================
+
+For My Parents was created by an eclectic group of programming, production 
+and 3d art and animation students for a single semester capstone course. Play 
+as Kira, a young girl searching for her parents in an ancient temple; solve 
+puzzles and traverse dangers with the help of new found animal friends and 
+discover what really lurks in the darkness.
+
+This game was built for PC usage and requires a mouse and keyboard for 
+operation. It is played on a 16:9 canvas.
+
+
+
+========================================================
+========================================================
+========================CONTROLS========================
+========================================================
+========================================================
+
++======================+
+|                      |
+|   GENERAL CONTROLS   |
+|                      |
++======================+
++ WASD for movement
++ Mouse for POV
++ Q to switch character
++ ESC for pause
+
+
++======================+
+|                      |
+|KIRA SPECIFIC CONTROLS|
+|                      |
++======================+
++ Left Click: Shoot
++ Right Click: target (click again to untarget)
+
+
++=======================+
+|                       |
+|BUNNY SPECIFIC CONTROLS|
+|                       |
++=======================+
++ Space Bar to Jump
+
++=========================+
+|                         |
+|QUETZAL SPECIFIC CONTROLS|
+|                         |
++=========================+
++ HOLD Space Bar to Fly
+
++======================+
+|                      |
+|         UI KEY       |
+|                      |
++======================+
+___________________________________________________________________________
+|\            HEALTH BAR           |                                       |
+| \---------------------------------                                       |
+|  \_________FEAR METER____|                                               |
+|Player   |<-Bunny Icon                                                    |
+|Port.-----                                                                |
+| /______|<-Girl Icon                                                      |
+|/|  |<-Bird Icon                                                          |
+| ---                                                                      |
+|                                                                          |
+|                                                                          |
+|                                                                          | 
+|                                                                          |
+|                                                                          |
+|                                                                          |
+|                                                                          |
+|                                                                          |
+|          ____________________________________________________            |                              
+|         |                                                    |           |
+|         |                     TEXT POPUPS                    |           |                                                                           
+|         |____________________________________________________|           |
+----------------------------------------------------------------------------
+
+
+
++======================+
+|                      |
+|   SPECIAL MECHANICS  |
+|                      |
++======================+
+While the game is mostly a straightforward puzzle exploration, 
+there are two special mechanics: 
+     1.	The Bunny Tokens. Hidden throughout the levels are 
+        12 hidden tokens, some within pots, others in plain 
+        sight. Collecting 10 of them allows access to an 
+        extended portion of the game and a different possible 
+        ending.
+
+     2.	Central to the game is a darkness mechanic. Kira is 
+        afraid of the dark. Being in darkness causes Kira to gain
+        fear and, in denser forms, health damage. The camera warps 
+        as Kira gains fear and the purple bar fills. Filling it 
+        results in taking health damage. Replenish your health and 
+        diminish your fear by standing near lights.
+
+
+
+
+
+========================================================
+========================================================
+======================WALKTHROUGH=======================
+========================================================
+========================================================
+
+===================== CAMPSITE =======================>>>
++======================+
+| a. Campsite          |
+|       CAMPSITE       |
+|                      |
++======================+
+
+[Cut scene text]
+You find yourself in control of Kira. Use WASD to walk around. Follow the 
+black clouds and prompts forward and up the temple steps until the scene 
+turns black and you are transported to the first part of the temple.
+
+
+
+================= STARTING TEMPLE ===================>>>
++======================+
+| b. Starting Temple   |
+|   STARTING CHAMBER   |
+|        bunny token X1|
++======================+
+You begin in a large dark chamber and are prompted to move towards the light. 
+This is an important note, your character takes fear damage, indicated by the 
+purple (lower) bar in the top left. As fear rises, the camera warps. Once the 
+bar is full, Kira starts taking physical damage, indicated by the red (top) 
+bar. When your health falls to zero, Kira faints and you will have to restart 
+the section.  Once at the campfire, you will be prompted further. 
+
+The bunny token is located behind where Kira initially spawns in the room.
+
+
+
++======================+
+| b. Starting Temple   |
+|    BUNNY AND ANTS    |
+|        bunny token X1|
++======================+
+ Once Kira goes through the door, you will be greeted by a bunny, which will 
+automatically fall in line behind you. You will next be introduced to the 
+shooting mechanic. Left click on the mouse will shoot in an inaccurate 
+pattern. To control what you are shooting at, if an item is targetable, you 
+can use the right click to bring up a reticule that locks on to target then 
+use left click to shoot as normal. Defeat the waves of ants to unlock the 
+door. In this room, you can also find that the pots are breakable.
+
+The bunny token is in a pot in the left corner as you enter the room.
+
+
+
++======================+
+| b. Starting Temple   |
+|   BUNNY JUMP PUZZLE  |
+|        bunny token X1|
++======================+
+Upon exiting the room, you find a bridge with portions missing. There is no 
+way that Kira can jump this—the player has no jump ability with Kira. The 
+switching mechanic is introduced and the player is prompted to use the bunny. 
+Press Q to switch between the bunny and Kira, when in the bunny form, space 
+bar is used to jump. Two jumpable paths exist, one from the corner towards 
+the exit door and the other is to simply follow the path around. Falling into 
+the water with either Kira or the bunny causes a respawn and a walk back up 
+the ramp. Once the bunny makes it to the door, the bunny should step on the 
+button. The missing pieces of the bridge lift and Kira can walk along the 
+path.
+
+
+
+
++======================+
+| b. Starting Temple   |
+|   DUAL SWITCH ROOM   |
+|                      |
++======================+
+The next room is simple and meant to resolidify the switching mechanic, 
+having Kira step on one button and the bunny on the other. It does not matter 
+who goes where. Place Kira on one button and switch with Q and move the bunny 
+to the other. The door will unlock. Notice that the door has a different 
+motif. The skull door marks general rooms whereas a flower marks rooms that 
+will be safe.
+
+
+
++======================+
+| b. Starting Temple   |
+|      SAFE ROOM       |
+|                      |
++======================+
+This room is the safe room. It provides a place for healing and getting rid 
+of fear fast. While standing near light will diminish fear, safe rooms—those 
+with campfires—do it more efficiently.
+
+
+
+
++======================+
+| b. Starting Temple   |
+|     NUMBER PUZZLE    |
+|                      |
++======================+
+This room features the Mayan number system. The mural is a hint for what the 
+numbers mean. You are trying to hit the pillars to match the writing on the 
+wall. To do this, walk up to the pillars and they will fall. If they are 
+wrong, they pop back up, if the sequence is correct, all columns lower and 
+the door opens. The Seven column is the one line with two dots. The zero 
+column is the leaf/coin. The four column is four dots. The one column is one 
+dot.
+
+The bunny token is located in the pot next to the ramp into the water.
+
+
+
++======================+
+| b. Starting Temple   |
+|      BUNNY HOLE      |
+|        bunny token X1|
++======================+
+Again, you are presented with a gap that Kira cannot jump, however, this time 
+it seems that the bunny cannot make the jump either. You must navigate the 
+bunny to the right and follow the tunnel around, hitting the button on the 
+other side to raise the bridge. Walk Kira across the bridge and the door will 
+open. Falling into the pit will result in the character respawning at the 
+start of the room.
+
+The bunny token is hidden in the pot on the far left side right before 
+exiting the room.
+
+
+
++======================+
+| b. Starting Temple   |
+|  TELEPORTATION ROOM  |
+|                      |
++======================+
+Upon entering this room a large glowing portal invites you to walk into it. 
+The room features a bevy of breakable pots.
+
+
++======================+
+| b. Starting Temple   |
+|      HUB ROOM 1      |
+|                      |
++======================+
+This room serves as your gate between levels. Walk into the teleportation 
+lights to continue to the next level.
+
+
+================= JAGUAR TEMPLE ===================>>>
++======================+
+| c. Jaguar Temple     |
+|   JAGUAR MAIN HALL   |
+|                      |
++======================+
+Here you find another large room with Jaguar statuary. Head towards the door 
+for it to open.
+
+
++======================+
+| c. Jaguar Temple     |
+|    SUBMERGED PATH    |
+|                      |
++======================+
+You come to a flooded room. You are prompted that there must be a path to 
+look for the edging. While you may think to use the bunny to complete this 
+puzzle by jumping through, the door does not unlock for the bunny. You must 
+traverse the path on your own, see the diagram below for path specifics.
+
+ ______________________EXIT______________________________
+|\\\\\\\\\\\\\\\\\\|___            ___|\\\\\\\\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\\\\\|     _____|\\\\\\\\\\\\\\\\\\\\\\|      
+|\\\\\|                     |\\\\\\\\\\|     |\\\\\\\\\\\|
+|\\\\\|     ________________|\\\\\\\\\\|_____|\\\\\\\\\\\|
+|\\\\\|    |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
+|\\\\\|    |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
+|\\\\\|    |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
+|\\\\\|          |\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\|
+|\\\\\|_____     |\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\|
+|\\\\\\\\\\\|          |\\\\|                |\\\\\\\\\\\|
+|\\\\\\\\\\\|          |\\\\|                |\\\\\\\\\\\|
+|\\\\\\\\\\\|____      |\\\\|      _____     |\\\\\\\\\\\| 
+|\\\\\\\\\\\\\\\\|                |\\\\\|    |\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\|                |\\\\\|    |\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\|________________|\\\\\|    |\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|    |\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|    |\\\\\\\\\\\|
+|\\\\\|          |\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\|
+|\\\\\|          |\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\|
+|\\\\\|      ____|\\\\\\\\\\\\\\\\|      ____|\\\\\\\\\\\|
+|\\\\\|     |\\\\\\\\\\\\\\\|           |\\\\|     |\\\\\|
+|\\\\\|     |\\\\\\\\\\\\\\\|           |\\\\|     |\\\\\|
+|\\\\\|_____|\\\\\\\\\\\\\\\|      _____|\\\\|_____|\\\\\|
+|\\\\\\\\\\\\\\\\\\\\\\|          |\\\\\\\\\\\\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\|                  |\\\\\\\\\\\\\\\\\\|
+|\\\\\\\\\\\\\\\\\\|_______ENTER______|\\\\\\\\\\\\\\\\\\|
+
+
+
++======================+
+| c. Jaguar Temple     |
+|     ANT ENCOUNTER    |
+|        bunny token X1|
++======================+
+Don’t miss the bunny token as you enter.
+More ants! You can run past them, but they might just chase you down. Right 
+click to target them, left click to shoot.
+
+The bunny token is on the lifted area to the left as you enter. You will need 
+either the bunny or the quetzal to reach it.
+
+
+
++======================+
+| c. Jaguar Temple     |
+|      SAFE ROOM       |
+|                      |
++======================+
+Every temple/level has at least one safe room. Think of these as waypoints or 
+places to do the maximum amount of healing in the shortest time.
+
+
++======================+
+| c. Jaguar Temple     |
+|     QUETZAL ROOM     |
+|        bunny token X1|
++======================+
+Here you meet your second companion animal. This is a Quetzal—one of the most 
+revered birds in Mayan culture—and like the bunny has its own set of skills. 
+The Quetzal can fly by using the space bar, but has an added stamina meter 
+above its head. When the stamina meter depletes, it falls from the sky.
+In this puzzle, the quetzal—which is now accessible using Q to cycle between 
+Kira, the bunny, and the quetzal—is used to cut down the log by flying and 
+hitting the rope. Once the log is down, the bunny can be guided through the 
+log and find the button on the other side lifting a bridge and opening a 
+doorway for Kira to cross over. A second button on the walkway triggers the 
+door to open to the next room. Falling into the pit causes the player unit to 
+respawn next to the starting entrance of this room.
+
+The bunny token is in the right corner, right before exiting the room.
+
+
++======================+
+| c. Jaguar Temple     |
+|     TARGET PUZZLE    |
+|        bunny token X1|
++======================+
+This is a quintessential logic puzzle in which you must light up all the 
+targets to unlock the door and proceed. You cannot use the quetzal to hit the 
+targets and must use Kira’s shooting ability. The targets can be locked on 
+with the right click button (a second right click will untarget). From a 
+fresh room, the solution is to hit the third target, the second target, and 
+then the first target. 
+
+Fresh room solution: 3, 2, 1
+Lights at starting position: O X O X
+Hit the third target:        X O O X  (Turns off: 1, Turns on: 2)
+Hit the second target:       X O X O  (Turns off: 3, Turns on: 4)
+Hit the first target:        O O O O  (Turns on: 1, 3)
+
+In case you are looking at this guide after trying and getting stuck, below 
+is a chart for what each target changes (targets are switches, if the light 
+it affects is on, it turns it off, if it’s off it turns it on):
+Target 1: Light 1, Light 3
+Target 2: Light 3, Light 4
+Target 3: Light 1, Light 2
+Target 4: Light 2, Light 3
+Target 5: Light 1, Light 4
+
+If you can get all the lights off, you can also use target 4 and target 5 to 
+turn all of them on:
+Solution if all lights are off:
+Starting position:           X X X X
+Hit fifth target:            O X X O  (Turns on: 1, 4)
+Hit fourth target:           O O O O  (Turns on: 2, 3)
+
+[Maybe add in a cheat code to turn all the lights on/open the door here]
+
+
++======================+
+| c. Jaguar Temple     |
+|    COLOR SEQUENCE    |
+|                      |
++======================+
+In this room, you are prompted to look at the pattern on the wall and pick 
+the next in the sequence. Touching any of the blocks that are not the 
+solution spawns an enemy—either a scorpion or an ant. 
+The solution is the blue cube. The solution is derived from a simple shifter 
+described below:
+
+Pattern on the wall, solve for the last one:
+ _______   _______   _______   _______   _______   _______   _______
+|       | |       | |       | |       | |       | |       | |       |
+|  RED  | | BLUE  | |ORANGE | |  BLUE | |  RED  | |  RED  | |  ???  |
+|_______| |_______| |_______| |_______| |_______| |_______| |_______|
+
+
+
+
+Columns from which to derive pattern/touch the next in the sequence:
+
+    _______        _______        _______        _______        _______ 
+   |       |      |       |      |       |      |       |      |       |
+   |  RED  |      | BLUE  |      |ORANGE |      | PURPLE|      | GREEN |
+   |_______|      |_______|      |_______|      |_______|      |_______|
+ ------------   ------------   ------------   ------------   ------------
+ |     1    |   |     2    |   |     3    |   |     4    |   |     5    |
+ |          |   |          |   |          |   |          |   |          |
+ |          |   |          |   |          |   |          |   |          |
+
+Solution:
+Block 1: 1+0 = 1, first block is red
+Block 2: current(1) + 1= 2, second block is blue
+Block 3: current(2) + 2 = 4, third block is purple
+Block 4: current(4) + 3 = 7->(7-5 = 2), fourth block is blue
+Block 5: current(2) + 4 = 6->(6-5 = 1), fifth block is red
+Block 6: current(1) + 5 = 6->(6-5 = 1), sixth block is red
+Block 7: current(1) + 6 = 7->(7-5 = 2), the solution is blue
+
+
+The bunny token is located in the second pot on the left as you enter the 
+room.
+
+
++======================+
+| c. Jaguar Temple     |
+|     ANT ENCOUNTER    |
+|                      |
++======================+
+More ants! You can run past them, but they might just chase you down. Right 
+click to target them, left click to shoot.
+
+
++======================+
+| c. Jaguar Temple     |
+|       FIRE MAZE      |
+|        bunny token X1|
++======================+
+ While it may be tempting to try and fly over the maze with the bird, it is a 
+futile task. Kira must navigate through the maze to unlock the door.
+
+The bunny token is hidden in the left corner on the side where Kira enters 
+the room.
+Diagram shows the path, marked with asterisks below, the bunny token path is 
+marked with O’s.
+
+    __________________EXIT________________
+   | **************** || * ||   ||        |
+   | *              * || * ||   ||        |
+   | * |||||||||||| * || * ||   ||   ||   |
+   | * || ****** || ****** ||        ||   |
+   | * || * || * ||||||||||||||||||||||   |
+   | ****** || ********************* ||   |
+   |||||||||||   ||||||||||||||||| * ||   |
+   |        ||   ||        || ****** ||   |
+   |   ||   |||||||    |||||| * |||||||   |
+   |   ||              || ***** ||        |
+   |   ||||||   ||||||||| * ||||||   ||||||
+   |       ||   || ******** ||       ||   |
+   |   ||  ||   || *        ||  ||   ||   |
+   |   ||  ||||||| * |||||||||  ||   ||   |
+   |   || oooooooo *            ||   ||   |
+   |||||| o||||||| * |||||||||  ||        |
+   |      o     || * ||         ||        |
+   |_BT<ooo______ENTER__________||________|
+
+
+
++======================+
+| c. Jaguar Temple     |
+|  TELEPORTATION ROOM  |
+|                      |
++======================+
+Again, you find a room with a giant glowing vortex. Enter it.
+
+
+
++======================+
+| c. Jaguar Temple     |
+|      HUB ROOM 2      |
+|                      |
++======================+
+A different door is highlighted for use, enter it.
+
+================= RABBIT TEMPLE ===================>>>
+
++======================+
+| d. Rabbit Temple     |
+|    RABBIT ATRIUM     |
+|        bunny token X1|
++======================+
+You find yourself in another temple/level, this starts the third level, a 
+bunny token is hidden in the far left corner and requires either the bird or 
+the bunny to jump over broken pillars to find. After retrieving it, head 
+through the central door.
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      SAFE ROOM       |
+|                      |
++======================+
+Every temple/level has at least one safe room. Think of these as waypoints or 
+places to do the maximum amount of healing in the shortest time.
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      FALSE FLOOR     |
+|                      |
++======================+
+You can see a door on the other side, but as soon as you step in, the floor 
+disappears and you plunge downward into a room with two sets of stepping 
+stones. From the other side, ants appear. Right click to lock on, left click 
+to shoot. Once the ants are dead, exit the room.
+
+
+
++======================+
+| d. Rabbit Temple     |
+|     TRIPLE PATH      |
+|        bunny token X1|
++======================+
+In this room, you are greeted with your choice of three doors. Only the 
+center door leads onwards, the other two are dead ends, however, the door on 
+the right leads to a token.
+Left path: The left path requires timing to pass the spiked floors.
+Right path: Spiked columns rotate, passing through the spiked columns, you 
+gain access to a room with a token and ants?
+Center path: Crushing spiked walls. For the best timing, begin walking as 
+soon as the set closest to you closes all the way.
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      SAFE ROOM       |
+|                      |
++======================+
+Every temple/level has at least one safe room. Think of these as waypoints or 
+places to do the maximum amount of healing in the shortest time.
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      HIDDEN MAZE     |
+|        bunny token X1|
++======================+
+Walking into the first room, you see an oozing door with a block above it. 
+This block is a direction, follow only the doors with the [COLOR] block above 
+it to exit the maze.
+However, there is a token hidden in a side path marked on the map with a BT. 
+See diagram below for map of the maze. Taking any of the doors marked WW 
+(Wrong Way) teleports you back to the beginning. The asterisks show the 
+fastest (and correct) way out.
+                                   
+                                   ---WW---
+                                   |      |
+                                   WW      WW
+                                   |      |
+                                   ---  ---
+                           ---WW------  ---
+                           |      ||      |
+                          WW              WW
+                           |      ||      |
+                           ---WW------  ---           EXIT
+          ---WW---                 ---  ---         ---**---
+          |      |                 |      |         |  **  |
+         WW      WW               WW      WW        |  **  |
+          |      |                 |      |         |  **  |
+          ---  ---                 ---  ---         ---**---
+          ---  -------WW------WW------  ---------------**---
+          |       ||      ||      ||       ||      ||  **  |
+         WW                           *******************  |   
+          |       ||      ||      ||  **   ||      ||      |
+          ---WW--- ---  ------WW------**--- ----------------
+                   ---  ---        ---**---
+                   |      |        |  **  |
+                  WW      WW      WW  **  WW
+                   |      |        |  **  |
+                   ---  ---        ---**---
+           ---WW------  ------WW------**--- 
+           |      ||      ||      ||  **  |
+          WW  BT<-------------**********  WW
+           |      ||      ||  **  ||      |
+           ---WW------WW------**-----------
+                           ---**---
+                           |  **  |
+                           |  **  |
+                           |  **  |
+                           ---**---
+                             START
+
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      SAFE ROOM       |
+|                      |
++======================+
+Every temple/level has at least one safe room. Think of these as waypoints or 
+places to do the maximum amount of healing in the shortest time.
+ 
+
+
++======================+
+| d. Rabbit Temple     |
+|      SPIKED MAZE     |
+|        bunny token X1|
++======================+
+While the center path may seem enticing, the timing is near impossible to get 
+through without killing Kira. The left path, while longer is much easier to 
+get through.
+
+The bunny token is located in the right corner before exiting. 
+The suggested path is marked below, as well as the bunny token:
+    
+      _________________________EXIT ________________________
+     |\\\\\\\\\\\\\\\\\\\\\\\\\| * |\\\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\\\\\\\\\\\\\\\\\\\\\\\| * |\\\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\| ***********************                     BT |\|
+     |\\\| *  _________________     __________________    |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\\\\\\\\\\\\\\\\\|   |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\\\\\\\\\\\\\\\\\|   |\|
+     |\\\| *****            |\\|   |\\|           |\\\|   |\|
+     |\\\|___  *  ______    |\\|   |\\|    ___    |\\\|   |\|
+     |\\\\\\\| * |\\\\\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\\\\\| * |\\\\\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| *****            |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| *  ___     __    |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\|   |\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\|   |\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\|          |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\|__________|\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| *********        |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\|_______  *  __    |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\\\\\\\\\| * |\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\\\\\\\\\| * |\\|   |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| *********        |\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| *  ______________|\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| * |\\\\\\\\\\\\\\\\\|   |\\|   |\\\|   |\\\|   |\|
+     |\\\| ***********************        |\\\|           |\|
+     |\\\|_____________________  *  ______|\\\|___________|\|
+     |\\\\\\\\\\\\\\\\\\\\\\\\\| * |\\\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\\\\\\\\\\\\\\\\\\\\\\\START\\\\\\\\\\\\\\\\\\\\\\\\|
+
+
++======================+
+| d. Rabbit Temple     |
+|   HIGH RISE PUZZLE   |
+|                      |
++======================+
+This puzzle is a combination puzzle, much like the light puzzle from the last 
+temple. The bunny or the bird must touch the buttons on the sides of the room 
+in the correct combination to raise all the platforms so that Kira can get 
+across. There are four buttons, referred to as Left Front, Left Back, Right 
+Front and Right back.
+The easiest solution: Press both the buttons closest to the player (Right 
+Front and Left Front)
+Buttons control:
+Left Front:  Platform 2 and Platform 3
+Left Back:   Platform 1 and Platform 3
+Right Front: Platform 1 and Platform 4
+Right Back:  Platform 1 and Platform 2
+                         
+      _______________________EXIT_______________________
+     |\\\\\\\\\\\\\\\\\\\|           |\\\\\\\\\\\\\\\\\\| 
+     |\\\\\\\\\\\\\\\\\\\|           |\\\\\\\\\\\\\\\\\\|
+     |      |\\\\\\\\\\\\|___________|\\\\\\\\\\\|      |
+     |LEFT BACK\\\\\\\\\\\\\|    |\\\\\\\\\\\\RIGHT BACK|
+     |______|\\\\\\\\\\\\\\\| P4 |\\\\\\\\\\\\\\\|______|
+     |\\\\\\\\\\\\\\\\\\\\\\|----|\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\\\\\\\\\\\\\\\\\\\\| P3 |\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\\\\\\\\\\\\\\\\\\\\|----|\\\\\\\\\\\\\\\\\\\\\\|
+     |\\\\\\\\\\\\\\\\\\\\\\| P2 |\\\\\\\\\\\\\\\\\\\\\\|
+     |      |\\\\\\\\\\\\\\\|----|\\\\\\\\\\\\\\\|      |
+     |LEFT FRONT\\\\\\\\\\\\| P1 |\\\\\\\\\\\RIGHT FRONT|
+     |______|\\\\\\\\\\\\\\\|____|\\\\\\\\\\\\\\\|______|
+                  |                       |
+                  |                       |
+                  |                       |
+                  |__________ENTER________|
+     
+ 
+
+
+
++======================+
+| d. Rabbit Temple     |
+|  TELEPORTATION ROOM  |
+|                      |
++======================+
+You know the drill, jump in that sparkly vortex of possible doom.
+
+
+
+
++======================+
+| d. Rabbit Temple     |
+|      HUB ROOM 3      |
+|                      |
++======================+
+Another door?
+
+
+
+
+===================== BOSS BATTLE ====================>>>
++======================+
+| e. Boss Battle       |
+| BEGINNING OF THE END |
+|                      |
++======================+
+You come to a large room and unlike other levels you can look up and see 
+trees. Something feels different here and your animal companions have 
+disappeared. Be careful not to fall into any of the pits here, that will end 
+your journey for good. Walk through the room to the door and it will open.
+
+
+
++======================+
+| e. Boss Battle       |
+|      BOSS BATTLE     |
+|                      |
++======================+
+The door closes behind you. A giant shadow bunny shoots orbs of goo at you. 
+Dodge the goo and look for your chance. Smaller bunnies spawn around the room 
+and can too damage you. You may notice that damaging the large shadow bunny 
+does nothing. The key to the battle is to dodge its attacks and kill the 
+smaller bunnies. Killing the smaller bunnies is the only way to damage the 
+large bunny. If the larger bunny manages to deplete your health, you will be 
+returned to the big room with the campfire—don’t laze too long, as more of 
+the little bunnies are constantly spawning and can come hunt you down in your 
+weakened state. You have three chances to beat the boss before it truly is 
+game over. See “Endings Guide” for a brief description of the endings you 
+could have gotten.
+
+
+
++======================+
+| e. Boss Battle       |
+|SO YOU BEAT THE BOSS!?|
+|                      |
++======================+
+You come into a room full of vegetation and light. There are two doors. If 
+you found all the secret tokens, the door on the right will unlock, 
+giving further exploration and a different ending option to your adventure. 
+If not, only the door on in front will be unlocked and your journey 
+ends here. If your journey ends here and you don’t want to read what lies 
+behind the other door, skip down to the “Ending Guide” to see what other 
+endings you may have gotten.
+
+
+
+
+
++======================+
+| e. Boss Battle       |
+|   ADDITIONAL ROOM 1  |
+|                      |
++======================+
+This room tests all your timing skills and pits you against poison darts, and 
+spinning columns of fire. If you fall, you’ll have to make your way back up and 
+try and cross the walkway all over again. And if you die…skip down to the 
+“Ending Guide” to see what other endings you may have gotten.
+
+
+
+
++======================+
+| e. Boss Battle       |
+|  ADDITIONAL ROOM 2   |
+|                      |
++======================+
+Just when you thought it was over, there are swinging pendulums and suspicious 
+looking water beneath. Falling in will net you the bad ending, but getting past 
+them? Congrats on the good ending. Skip down to the “Ending Guide” to see what 
+other endings you could have gotten.
+
+
+
+
+
+===================== ENDINGS =======================>>>
++======================+
+| f. Endings           |
+|      BAD ENDING      |
+|                      |
++======================+
+Conditions: Die three times at the boss, or anytime after the boss.
+Description: “I don’t know how long I was there, but…when I woke up it was 
+dark. Mommy and Daddy were there! They looked so peaceful. I didn’t want to 
+wake them—I don’t think I could.”
+
+The pictures show Kira waking up on the temple floor, darkness encroaching at 
+the corners. The scene pans out and you see her parents, lying on the floor. 
+Kira huddles into them, closing her eyes…
+
+
++======================+
+| f. Endings           |
+|     OKAY ENDING      |
+|                      |
++======================+
+Conditions: Beat the boss but collect less than 10 tokens.
+Description: “I don’t know how long I was there, but when I woke up I was in 
+the tent—was it all a dream? But, Daddy was there! I couldn’t see Mommy. He 
+wouldn’t tell me where she was…He…had a present for me, though…”
+
+Kira wakes up in a tent and is greeted by her father. But he refuses to 
+answer questions about her mother. Instead smiling with his hands behind his 
+back, when he reveals them, he presents Kira with a red-eyed bunny…
+
+
++======================+
+| f. Endings           |
+|     GOOD ENDING      |
+|                      |
++======================+
+Conditions: Collect 10 bunny tokens, beat the boss and make it through 
+the puzzles after the boss.
+
+Description: “I could see light. So much light! I found my way out and Mommy 
+and Daddy were there looking for me! They hugged me tight and told me they 
+were scared. HAH. Wait ‘til I tell them what’s actually in the temple!”
+
+Kira wakes up on the temple floor, but sees a door. She exits into the light 
+and sees her parents off in the distance. She runs to her mother and 
+afterwards a picture is taken of the family, whole and happy once more.
+
+
+
+
+
+========================================================
+========================================================
+======================CHEAT CODES=======================
+========================================================
+========================================================
+The cheat codes that exist within the game were made during the development 
+process—usually to aid in testing, I will warn the player that chooses to use 
+them that they are to be used at your own risk. While many of them are 
+stable, some have unintended consequences if used more than once or stacked 
+on top of each other.
++======================+
+| f. Cheat Codes       |
+|    SCENE CONTROLS    |
+|                      |
++======================+
+GNEXT 
+------loads the next scene 
+
+GPREV
+------load previous scene
+ 
+RESET
+------reload the current scene
+
+
+ 
++======================+
+| f. Cheat Codes       |
+| HEALTH/FEAR CONTROLS |
+|                      |
++======================+
+IDDQD
+------God Mode, MAX HP and 0 Fear
+ 
+LOWHP
+------Set HP to 10
+ 
+MAXHP
+------Set HP to 100
+
++======================+
+| f. Cheat Codes       |
+|     OTHER CONTROLS   |
+|                      |
++======================+
+TOKEN
+------Move the bunny tokens in the room to player’s location
+
+SPEED
+------Multiply Kira's current speed by 2
+-----------Please note, there is no limit to how much this can stack, this 
+creates game breaking speeds that throw you through walls, time, and possibly 
+out of the game engine itself. Have fun.
+
+
+
+
+========================================================
+========================================================
+=========================CREDITS========================
+========================================================
+========================================================
+
+The game was created as part of a cooperative capstone course for the A.A.S 
+in Game Programming, A.A.S in Game Production, and A.A.S in 3D Animation at 
+Northwest Vista College, a part of the Alamo Community Colleges.
+
+================== FACULTY ADVISORS =======================>>>
++Julie Hoshizaki, General Game Design and Programming
++Vicky Sertich, 3D Art and Animation
++Qi Wang, General Programming
++Joe Guerra, 3D Art and Animation and Unity Programming
++Scott Strentzsch, General Programming and Testing
+
+
+================== STUDENT CREATORS =======================>>>
++======================+
+|                      |
+|        LEADS         |
+|                      |
++======================+
++Juan Gonzalez, Project Lead
++Miranda Bryant, Art Lead
++Issac Irlas, Programming Lead
++Patricia Sipes, Technical Lead
+
+
++======================+
+|                      |
+|  PRODUCTION MAJORS   |
+|                      |
++======================+
++Juan Gonzalez 
+------Project Manager
+------Lead Level Designer
+------Lead World Builder
+------Social Media Specialist 
+
++Dylan Witter
+------Testing Coordinator
+------Level Designer
+------World Builder
+------Particle Effects Artist 
+
++Jay Witten
+------Level Designer
+------World Builder
+
+
++======================+
+|                      |
+| 3D ANIMATION STUDENTS|
+|                      |
++======================+
++Miranda Bryant
+------Art Lead
+------Main Character Modeler
+------Main Character Animator
+------Main Character Texturer
+------General 3D Artist
+
++Fred Hernandez
+------3D Character Artist and Animator
+------3D Environmental Artist
+------3D Supplemental Artist
+------Sound Designer
+
++Leandra Lopez
+------Character Designer
+------3D Environmental Artist
+------3D Supplemental Artist
+
++Sean Kovarovic
+------3D Character Artist and Animator
+------3D Environmental Artist
+------3D Supplemental Artist
+------Promotional Artist
+
+
+
++======================+
+|                      |
+|  PROGRAMMING MAJORS  |
+|                      |
++======================+
++Issac Irlas
+------Lead Programmer
+------Camera and Character Programmer
+------Boss Programmer
+------3D Stand-In Artist
+
++Nathan Contreras
+------General AI Programmer
+------Boss Programmer
+------UI Programmer
+------Sound Artist/Mixer
+
++Jacinto Molina
+------General Programming
+------Sound Artist
+
++Patricia Sipes
+------Technical Director
+------General Puzzle Programmer
+------2D Artist
+------Voice Artist
+------Mom
+
+
++======================+
+|                      |
+|  Extraneous Credits  |
+|                      |
++======================+
++Textures.com for seamless textures
+
++Arid Foothills Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
++Double Drift Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
++Drums of the Deep Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
++Firesong Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
++Ritual Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
++Temple of the Manes Kevin MacLeod (incompetech.com)
+ Licensed under Creative Commons: By Attribution 3.0 License
+ http://creativecommons.org/licenses/by/3.0/
+
+
